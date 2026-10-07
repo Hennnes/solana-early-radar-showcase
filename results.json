@@ -1,0 +1,27 @@
+{
+  "study": {
+    "independent_pump_mints": 500,
+    "frozen_token_cutoff_rows": 2500,
+    "unique_buyers_le_5m": 8155,
+    "buyers_with_recurring_history": 838,
+    "descriptive_recurring_pairs": 2033,
+    "connected_cohorts": 33,
+    "tier_b_base_rate": 0.05
+  },
+  "pr_auc": {
+    "t_plus_3m": {
+      "baseline": 0.134,
+      "baseline_plus_cohorts": 0.137
+    },
+    "t_plus_15m": {
+      "baseline": 0.162,
+      "baseline_plus_cohorts": 0.142
+    }
+  },
+  "walk_forward": {
+    "folds_total": 20,
+    "folds_improved": 6,
+    "median_delta": -0.045
+  },
+  "conclusion": "Recurring early-buying cohort features did not show stable incremental predictive value in the 500-mint evaluation."
+}

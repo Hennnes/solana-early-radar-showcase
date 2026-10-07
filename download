@@ -1,0 +1,12 @@
+.env
+cache/
+data/
+artifacts/
+*.log
+*.csv
+*.parquet
+*.sqlite
+*.db
+__pycache__/
+*.py[cod]
+.venv/
